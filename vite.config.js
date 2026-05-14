@@ -8,6 +8,6 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   build: {
-    copyPublicDir: false,
+    copyPublicDir: true,
   },
 });
